@@ -34,8 +34,6 @@ public class FileCopy {
             // Display content of destination file
             BufferedReader reader = new BufferedReader(new FileReader(destinationFile));
             String line;
-
-            System.out.println("Content of destination file:");
             while ((line = reader.readLine()) != null) {
                 System.out.println(line);
             }
